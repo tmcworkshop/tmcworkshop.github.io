@@ -1,199 +1,509 @@
-header {
-  padding: 154px 0 100px;
-  background: url(../images/barcelona2.webp) no-repeat;
-  background-position: center;
-  background-size: 100%;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.banner{
-	background: rgba(0,0,0,.5)!important;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
+  <head>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="2024 International Workshop on Talent and Management Computing">
+    <meta name="author" content="">
+    <!-- <link rel = "shortcut icon" href=/favicon.ico>  -->
 
+    <title>TMC</title>
 
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/modify_ysf.css" rel="stylesheet">
 
-@media (min-width: 992px) {
-  header {
-    padding: 156px 0 100px;
-  }
-}
+  </head>
 
-section {
-  padding: 150px 0;
-}
+  <body id="page-top">
 
-h2 {
-  text-align: center;
-}
-h3 {
-  text-align: left;
-}
-img {
-  width: 150px;
-  height: 180px;
-  justify-content: center;
-}
-/* img {
-  width: 60%;
-  height: 60%;
-} */
-.img_container {
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr); */
-  /* gap: 1%;  */
-  display: flex;
-  flex-wrap: wrap;
-  min-width: 25%;
-  justify-content: center;
-}
-.item {
-  height: 50%;
-  box-sizing: border-box;
-  text-align: center;
-}
-.item p {
-  width: 200px;
-  margin: 0 auto;
-}
-.item img {
-  vertical-align: middle;
-}
-.sponsor_container {
-  display: flex;
-  justify-content: center;
-}
-.sponsor_container img {
-  margin: 20px 20px ;
-}
-.logo1{
-  width: 30%;
-  height: 55%;
-}
-.logo2{
-  width: 10%;
-  height: 75%;
-}
-.image{
-  background-size: cover; /* 将背景图像调整为覆盖整个容器 */
-  background-position: center center; /* 将背景图像定位在容器的中心 */
-  border-radius: 50%; /* 将容器的边角设置为50%的值，从而将其形状变为椭圆形 */
-  margin: 0px 40px ;
-}
-.img_item {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">TMC-2024</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#Intro">INTRO</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#program">PROGRAM</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#interest">TOPIC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#cfp">CFP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#date">DATES</a>
+            </li>
+            <!--
+            -->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#organizers">ORGANIZERS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-.img_caption {
-  margin-top: 10px;
-  text-align: center;
-}
-h1{
-	font-size: 2.3rem;
-	font-weight: bold;
-}
-.section-title {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 38px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-.section-title1 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 28px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-/*.header-bg{
-	background:white url(/img/s2.jpg) no-repeat center;
-	background-size: auto 100%;
-}*/
+    <!-- <header class="bg-primary text-white"> -->
+    <header class="text-white">
+      <div class="container text-center banner" style="max-width: 1200px">
+        <h1> 2024 International Workshop on Talent and Management Computing</h1>
+        <p class="lead">Held in conjunction with KDD'24, August 25, 2024 (Sunday), from 2:00 PM to 6:00 PM, - Barcelona, Spain</p>
+        <!--
+        <strong>SHANGHAI, CHINA</strong>
+        -->
+      </div>
+    </header>
 
-.interest{
-	line-height: 1.8;
-}
-
-.date-title{
-	margin-bottom: 1.5rem;
-}
-.date{
-	margin-bottom: 0.6rem;
-}
-
-.name-title{
-	margin-bottom: 0.2rem;
-}
-
-.text-white-80{
-	color: rgba(255,255,255,.7)!important;
-}
-
-.cmt{
-	text-decoration: underline;
-}
-
-#program tr {
-  border-top: 1px solid #dee2e6;
-}
-
-#program tr td, #program tr td p{
-  text-align: left;
-}
-
-#program tr td{
-  vertical-align: top;
-}
-
-#program tr td h4 {
-  font-size: 1.1rem;
-}
-
-#program tr td{
-  padding: 10px 0 5px 0;
-}
+    <section id="Intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="section-title">INTRODUCTION</h2>
+            <!-- <p class="lead">The 1st International Workshop on Artificial Intelligence for Career Science (AICS)</p> -->
+            <p class="text-justify">In today’s competitive and fast-evolving business environment, it is a critical time for organizations to rethink how to deal with the talent and management related tasks in a quantitative manner. Indeed, thanks to the era of big data, the availability of large-scale talent data provides unparalleled opportunities for business leaders to understand the rules of talent and management, which in turn deliver intelligence for effective decision making and management for their organizations. In the past few years, Talent and Management Computing have increasingly attracted attentions from KDD communities, and a number of research/applied data science efforts have been devoted. To this end, the purpose of this workshop is to bring together researchers and practitioners to discuss both the critical problems faced by talent and management related domains, and potential data-driven solutions by leveraging state-of-the-art data mining technologies.</p>
+            <!-- <p class="text-justify">The workshop will be of interest to researchers in developing techniques for complex heterogeneous data mining in various application domains. The intended audiences include researchers from both academia and industry who are interested in exploiting the value of complex heterogeneous data.</p> -->
+          </div>
+        </div>
+      </div>
+    </section>
 
 
+    
+    <!-- <section id="program">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="section-title">Program</h2>
 
-.portfolio-modal .portfolio-modal-dialog {
-  padding: 3rem 1rem;
-  min-height: calc(50vh - 2rem);
-  margin: 1rem calc(1rem - 8px);
-  position: relative;
-  z-index: 2;
-  -webkit-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
-}
-
-.portfolio-modal .portfolio-modal-dialog .close-button {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-}
-
-.portfolio-modal .portfolio-modal-dialog .close-button span{
-  line-height: 38px;
-  font-size: 2em;
-}
-
-.portfolio-modal .portfolio-modal-dialog .close-button:hover{
-	text-decoration: none;
-}
+            <div class="row text-justify"> <div class="col-md-12"> <p class="large text-muted"> <b><font size="+2">Program Sketch (Tentative)</font></b> </p> </div> </div>
+            <p><font face="Times"><b>13:00-13:20</b></font>     Opening & Welcome</p>
+            <p><font face="Times"><b>13:20-13:55</b></font>     Paper presentation 1:   <font style="font-style: italic;"> Acqui-hiring or Acqui-quitting: Data-driven Post-M&A Turnover Prediction via a Dual-fit GNN Model, Speaker: Denghui Zhang</font></p>
+            <p><font face="Times"><b>13:55-14:30</b></font>     Paper presentation 2:   <font style="font-style: italic;"> MANE: Organizational Network Embedding with Multiplex Attentive Neural Networks, Speaker: Yuyang Ye</font> </p>
+            <p><font face="Times"><b>14:30-15:05</b></font>     Paper presentation 3:   <font style="font-style: italic;"> Demand-Supply Joint Labor Market Analysis, Speaker: Hao Liu </font> </p>
+            <p><font face="Times"><b>15:05-15:35</b></font>     Coffee Break</p>
+            <p><font face="Times"><b>15:35-16:10</b></font>     Paper presentation 4:   <font style="font-style: italic;"> AI-Enhanced Customizable Career Path Planning: A Long-Term Perspective, Speaker: Keli Xiao </font> </p>
+            <p><font face="Times"><b>16:10-16:45</b></font>     Paper presentation 5:   <font style="font-style: italic;"> Empirical Evaluation of Text-Driven Job Salary Prediction, Speaker: Nikhil Narayane </font> </p>
+            <p><font face="Times"><b>16:45-17:00</b></font>     Closing Remarks </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    
 
 
+    <section id="interest" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="section-title">TOPICS OF INTEREST</h2>
+            <p class="text-justify">This workshop aims to bring together leading researchers and practitioners to exchange and share their experiences and latest research/application results on all aspects of Talent and Management Computing based on data mining technologies. It will provide a premier interdisciplinary forum to discuss the most recent trends, innovations, applications as well as the real-world challenges encountered and corresponding data-driven solutions in relevant domains. </p>
+            <p class="text-justify">The topics of interest include but not limited to:</p>
+            <ul class="interest">
+              <li>Online recruitment</li>
+              <li>Job recommendation</li>
+              <li>Person-job fit and job satisfaction</li>
+              <li>Career development</li>
+              <li>Career path modeling </li>
+              <li>Professional social networks</li>
+              <li>Talent behavior modeling</li>
+              <li>Talent personality and leadership</li>
+              <li>Talent performance assessment</li>
+              <li>Talent retention and incentive</li>
+              <li>Team formation and task assignment</li>
+              <li>Group-based decision-making</li>
+              <li>Organizational change and stability</li>
+              <li>Organizational culture and communication</li>
+              <li>Organizational competition analysis</li>
+              <li>Labour market intelligence</li>
+              <li>Strategic management and planning</li>
+              <li>Fairness in talent and management computing</li>
+              <li>LLM-based talent management system</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="cfp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="section-title">CALL FOR PAPER</h2>
+            <p class="text-justify">We invite the submission of regular research papers (8 pages), as well as vision papers and short technical papers (around 4-6 pages), including all content and references. Submissions must be in PDF format, and formatted according to the new <a href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank">Standard ACM Conference Proceedings Template.</a> </p>
+            <p class="text-justify">To encourage the discussion, both original papers, and papers which have been published before, are all welcome to be submitted to this workshop. Submitted papers will be assessed based on their novelty, technical quality, potential impact, insightfulness, depth, clarity, and reproducibility. Considering the practical characters of this workshop, to enrich the presentations, we strongly encourage the authors to submit their demonstrations, e.g., intelligent system for talent analytics, LLM-based talent management systems, which will also be evaluated during the review process.</p>
+            <p class="text-justify">All the papers are required to be submitted via the <a href="https://easychair.org/conferences/?conf=tmc2024" target="_blank">EasyChair</a> system.</p>
+            <!-- <p class="text-justify">All the papers are required to be submitted via the EasyChair system.</p> -->
+            <!--
+            <p class="text-justify">For more questions about the workshop and submissions, please send email to <a href="mailto:aics2024@easychair.org" target="_blank">aics2024@easychair.org</a></p>
+            -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
 
-@media (min-width: 768px) {
-  .portfolio-modal .portfolio-modal-dialog {
-    min-height: 50vh;
-    padding: 5rem;
-    margin: 3rem calc(3rem - 8px);
-  }
 
-}
+    <section id="date" class="bg-light">
+      <div class="container" >
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="date-title">Important Dates</h2>
+            <p class="date">Paper submission: <strong>December 31, 2018</strong></p>
+            <p class="date">Paper notification: <strong>January 31, 2019</strong></p>
+            <p class="date">Camera ready deadline: <strong>February 22, 2019</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+    <section id="date" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="section-title">Important Dates (Tentative)</h2>
+            <p class="date"><strong>June 11, 2024:</strong> Workshop paper submission due (23:59, Anywhere on Earth)</p>
+            <p class="date"><strong>June 28, 2024:</strong> Workshop paper notifications</p>
+            <p class="date"><strong>August 25, 2024:</strong> Workshop date </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="agenda">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="section-title">Agenda</h2>
+            
+            <!-- TODO: For now still using class "data" -->
+            <p class="date">2:00 - 2:05</p>
+            <p class="date">Opening Remarks</p>
+            <br>
+
+            <p class="date">2:05 - 2:35</p>
+            <p class="date">Invited Talk: Prof. Xiong</p>
+            <br>
+
+            <p class="date">2:35 - 3:00</p>
+            <p class="date">Presentation 1: Discrepant Homophily Co-preserved Graph Convolutional Network for Labor Migration Forecasting</p>
+            <br>
+
+            <p class="date">3:00 - 3:25</p>
+            <p class="date">Presentation 2: Reconciling Methodological Paradigms within Talent Management Research: Exploring the Use of LLM as a Novice Qualitative Research Assistant</p>
+            <br>
+
+            <p class="date">3:25 - 3:50</p>
+            <p class="date">Presentation 3: Unsupervised Doctor Behavior Anomaly Detection with Self-Conditioned Diffusion Models</p>
+            <br>
+
+            <p class="date">3:50 - 4:30</p>
+            <p class="date">Coffee Break</p>
+            <br>
+
+            <p class="date">4:30 - 4:55</p>
+            <p class="date">Presentation 4: The Paradoxical Effect of Artificial Intelligence on Product Innovation</p>
+            <br>
+
+            <p class="date">3:50 - 4:30</p>
+            <p class="date">Coffee Break</p>
+            <br>
+
+            <p class="date">4:55 - 5:20</p>
+            <p class="date">Presentation 5: Efficient Large-scale Online Recommender System</p>
+            <br>
+
+            <p class="date">5:20 - 5:45</p>
+            <p class="date">Presentation 6: Uncovering IT Career Path Patterns with Job Embedding-based Sequence Clustering</p>
+            <br>
+
+            <p class="date">5:45 - 5:50</p>
+            <p class="date">Closing Remarks</p>
+            <br>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="organizers" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="section-title">Organizers</h2>
+            <div class="img_container">
+              <div class="item">
+                <a href="https://www.zhuhengshu.com/" target="_blank">
+                <img class="image" src="images/hengshu.png">
+                  </a>
+                <div class="img_caption">
+                  <p><strong>Hengshu Zhu</strong></p>
+                  <p>Career Science Lab (CSL), BOSS Zhipin</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <a href="https://eller.arizona.edu/people/yong-ge" target="_blank">
+                <img class="image" src="images/yonge.png">
+                  </a>
+                <div class="img_caption">
+                  <p><strong>Yong Ge</strong></p>
+                  <p>The University of Arizona</p>
+                </div>
+              </div>
+              <div class="item">
+                <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=253" target="_blank">
+                <img class="image" src="images/huixiong.png">
+                </a>
+                <div class="img_caption">
+                  <p><strong>Hui Xiong</strong></p>
+                  <p>The Hong Kong University of Science and Technology (Guangzhou)</p>
+                </div>
+              </div>
+              <div class="item">
+                <a href="https://faculty.smu.edu.sg/profile/lim-ee-peng-616" target="_blank">
+                <img class="image" src="images/eplim.jpeg">
+                </a>
+                <div class="img_caption">
+                  <p><strong>Ee-Peng Lim</strong></p>
+                  <p>Singapore Management University</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+    <section id="sponsors" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="section-title">SPONSORS</h2>
+            <div class="sponsor_container">
+                <img  class="logo1" src="img/IEEE.png">
+                <img class="logo2" src="img/boss.png">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+
+<!-- 
+    <section id="pc" >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <p class="lead">Members of the program committee:</p>
+            <ul>
+              <li><strong>Aamir Cheema</strong>, Monash University</li>
+              <li><strong>Farid Razzak</strong>, Rutgers</li>
+              <li><strong>Xiaoyang Wang</strong>, The University of New South Wales</li>
+              <li><strong>Dong Wen</strong>, The University of New South Wales</li>
+              <li><strong>Rong Zhu</strong>, Alibaba Group</li>
+              <li><strong>Haida Zhang</strong>, WorldQuant</li>
+              <li><strong>Xing Feng</strong>, Google</li>
+              <li><strong>Kai Wang</strong>, University of Warwick</li>
+              <li><strong>Weiren Yu</strong>, Hong Kong Baptist University</li>
+              <li><strong>Xiang Zhao</strong>, National University of Defence Technology</li>
+              <li><strong>Zhifei Chen</strong>, Nanjing University of Science and Technology</li>
+              <li><strong>Shuo Chen</strong>, RIKEN</li>
+              <li><strong>Jian Wang</strong>, The Hong Kong Polytechnic University</li>
+              <li><strong>Yanjie Fu</strong>, Missouri University of Science and Technology</li>
+              <li><strong>Daihai Yu</strong>, Bai Inc</li>
+              <li><strong>Chao Ma</strong>, Bytedance Inc</li>
+              <li><strong>Haochao Ying</strong>, ZheJiang University</li>
+              <li><strong>Haoyi Zhou</strong>, Beijing University of Aeronautics and Astronautics</li>
+              <li><strong>Abhishek Gupta</strong>, Nanyang Technological University</li>
+              <li><strong>Nick Zhang</strong>, Nanyang Technological University</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!--
+    <section id="program">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="mb-4">Workshop Programs</h2>
+
+
+            <table>
+                <tbody>
+                  <tr>
+                    <td width="120px">08:30-08:35</td>
+                    <td><h4 class="font-weight-normal">Welcome</h4></td>
+                  </tr>
+                  <tr>
+                    <td>08:35-09:15</td>
+                    <td><h4>Keynote I</h4>
+                      <div class="font-weight-bold"><a href="#k1" class="keynote-link text-dark portfolio-item">Processing SPARQL Queries Over Distributed RDF Graphs—A Partial Evaluation and Assembly Approach</a></div>
+                      <div>Lei Zou (Peking University)</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>09:20-10:00</td>
+                    <td><h4>Keynote II</h4>
+                      <div class="font-weight-bold"><a href="#k2" class="keynote-link text-dark">Architecting a Comprehensive Enterprise Graph Platform</a></div>
+                      <div>Yinglong Xia (Huawei Research America)</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="120px">10:00-10:30</td>
+                    <td><h4 class="font-weight-normal">Coffee Break</h4></td>
+                  </tr>
+                  <tr>
+                    <td>10:30-12:00</td>
+                    <td><h4>Session I: Graph & Algorithms</h4>
+                      <div class="font-weight-bold">Reachability in Large Graphs using Bloom Filters</div>
+                      <p>Arkaprava Saha (Nanyang Technological University), Neha Sengupta (IIT Delhi), Maya Ramanath (IIT Delhi)</p>
+                      <div class="font-weight-bold">Triangle counting on GPU using fine-grained task distribution</div>
+                      <p>Lin Hu (Peking University), Naiqing Guan (Peking University), Lei Zou (Peking University)</p>
+                      <div class="font-weight-bold">Efficient Parallel Computing of Graph Edit Distance</div>
+                      <p>Ran Wang (East China Normal University), Yixiang Fang (University of New South Wales), Xing Feng (Bloomberg)</p>
+                      <div class="font-weight-bold">MPMatch: A Multi-Core Parallel Subgraph Matching Algorithm</div>
+                      <p>Xin Jin (East China Normal University), Longbin Lai (University of New South Wales)</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="120px">12:00-13:30</td>
+                    <td><h4 class="font-weight-normal">Lunch Break</h4></td>
+                  </tr>
+                  <tr>
+                    <td>13:30-15:00</td>
+                    <td><h4>Session II: Graph & Applications</h4>
+                      <div class="font-weight-bold">Improving Distribued Subgraph Matching Algorithm on Timely Dataflow</div>
+                      <p>Zhengmin Lai (East China Normal University), Zhengyi Yang (University of New South Wales, Sydney), Longbin Lai (University of New South Wales, Sydney)</p>
+                      <div class="font-weight-bold">Classification of Medical Images with Synergic Graph Convolutional Networks</div>
+                      <p>Bin Yang (Harbin Engineering University), Haiwei Pan (Harbin Engineering University)</p>
+                      <div class="font-weight-bold">Skyline Nearest Neighbor Search on Multi-Layer Graphs</div>
+                      <p>Wanqi Liu (University of Technology Sydney), Dong Wen (University of Technology Sydney), Hanchen Wang (University of Technology Sydney), Fan Zhang (University of New South Wales), Xubo Wang (University of Technology Sydney)</p>
+                      <div class="font-weight-bold">Semantic Similarity Computation in Knowledge Graphs: Comparisons and Improvements</div>
+                      <p>Chaoqun Yang (Wuhan University), Yuanyuan Zhu (Wuhan University), Ming Zhong (Wuhan University), Rongrong Li (Wuhan University)</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="120px">15:00-15:30</td>
+                    <td><h4 class="font-weight-normal">Coffee Break</h4></td>
+                  </tr>
+                  <tr>
+                    <td>15:30-16:40</td>
+                    <td><h4>Session III: Social Networks</h4>
+                      <div class="font-weight-bold">A Method for Scalable First-Order Rule Learning on Twitter Data</div>
+                      <p>Monica Senapati (University of Missouri-Kansas City), Laurent Njilla (Air Force Research Lab), Praveen Rao (University of Missouri-Kansas City)</p>
+                      <div class="font-weight-bold">Elites Tweet? Characterizing the Twitter Verified User Network</div>
+                      <p>Indraneil Paul (IIIT Hyderabad), Abhinav Khattar (IIIT Delhi), Ponnurangam Kumaraguru (IIIT Hyderabad), Manish Gupta (Microsoft Bing), Shaan Chopra (Indraprastha Institute of Information Technology, Delhi) </p>
+                      <div class="font-weight-bold">Generating Synthetic Graphs for Large Sensitive and Correlated Social Networks</div>
+                      <p>Ju Xin (Ju Xin), Xiaofeng Zhang (Harbin Institute of Technology) , William Cheung (Hong Kong Baptist University)</p>
+                    </td>
+                  </tr>
+                </tbody>
+            </table>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+
+
+    <!-- key note 1 -->
+    <!--
+    <div class="portfolio-modal mfp-hide" id="k1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss text-dark" href="#">
+        <span>&times;</span>
+      </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h5 class=" mb-0">Processing SPARQL Queries Over Distributed RDF Graphs - <br/>
+              A Partial Evaluation and Assembly Approach</h4>
+              <hr class="star-dark mb-3">
+              <h5>Prof. Lei Zou</h5>
+              <p class="mb-5">Peking University</p>
+              <p><strong>Abstract</strong></p>
+              <p class="text-justify mb-5">
+                We propose techniques for processing SPARQL queries over a large RDF graph in a distributed environment. We adopt a "partial evaluation and assembly" framework. Answering a SPARQL query Q is equivalent to finding subgraph matches of the query graph Q over RDF graph G. Based on properties of subgraph matching over a distributed graph, we introduce local partial match as partial answers in each fragment of RDF graph G. For assembly, we propose two methods: centralized and distributed assembly.
+              </p>
+              <p><strong>Short Biography</strong></p>
+              <p class="text-justify mb-5">
+                Lei Zou received his BS degree and Ph.D. degree in Computer Science at Huazhong University of Science and Technology (HUST) in 2003 and 2009, respectively. He received a CCF (China Computer Federation) Doctoral Dissertation Nomination Award in 2009, won Second Class Prize of CCF Natural Science Award in 2014 and Second Class Prize of Natural Science of the Ministry of Education, China in 2017. Since September 2009, he joined Institute of Computer Science and Technology (ICST) of Peking University (PKU) as a faculty member. He has been a professor in PKU since August 2017. Before joining PKU, he visited Hong Kong University of Science and Technology in 2007 and University of Waterloo in 2008 as a visiting scholar. His recent research interests include graph databases, knowledge graph, particularly in graph-based RDF data management. He has published more than 50 papers, including more than 30 papers published in reputed journals and major international conferences, such as SIGMOD, VLDB, ICDE, TODS, TKDE, VLDB Journal. Lei Zou's research is supported by NSFC-Young Excellent Talent Project and National Key Research and Development Program of China.
+              </p>
+              <a class="btn btn-dark btn-lg rounded-pill portfolio-modal-dismiss" href="#">Close</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <!-- key note 1 -->
+    <!--
+    <div class="portfolio-modal mfp-hide" id="k2">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss text-dark" href="#">
+        <span>&times;</span>
+      </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h5 class=" mb-0">Architecting a Comprehensive Enterprise Graph Platform</h4>
+              <hr class="star-dark mb-3">
+              <h5>Dr. Yinglong Xia </h5>
+              <p class="mb-5">Huawei Research America</p>
+              <p><strong>Abstract</strong></p>
+              <p class="text-justify mb-5">
+                Graph technology has been playing increasingly important roles in various machine learning, data analytics, and resource management domains, thus more and more companies have been adopting/utilizing graph platforms, either on cloud or on premise, to support their business. In this talk, we will investigate various factors that contribute to the success of a graph platform for enterprise use, ranging from graph data organization, runtime scheduling, analytics optimization, to some thoughts on recent graph deep learning frameworks. We will discuss through some concrete examples on how to effectively put together the above building blocks, so as to form a comprehensive graph platform delivering efficient end-to-end performance to meet the requirements in many industrial scenarios. At last, we will brief some recent activities in graph technology community, such as the discussions on its standardization, along with the summary of the challenges and opportunities.
+              </p>
+              <p><strong>Short Biography</strong></p>
+              <p class="text-justify mb-5">
+                Yinglong Xia is a chief architect at Huawei Research America, working on AI platforms and Graph Engine Service (GES, https://www.huaweicloud.com/en-us/product/ges.html). Prior to that, he was a technical leader and research staff member at IBM Watson Research Center, exploring graph database and reasoning framework, creating the IBM System G (http://systemg.mybluemix.net/) platform. He has solid experience in both industrial research and product development, already published 60+ technical papers and filed 30+ patents. He serves as a technical advisory committee (TAC) member in Linux Foundation, a board member of LDBC, and an associate editor of IEEE trans. Knowledge and Data Engineering (TKDE), and IEEE trans. Big Data (TBD); he is a general co-chair of IEEE HiPC'19, vice co-chair of IEEE BigData'19, TPC member of KDD'19, VLDB'19, and ICDE'19, etc.
+              </p>
+              <a class="btn btn-dark btn-lg rounded-pill portfolio-modal-dismiss" href="#">Close</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <!-- <p class="m-0 text-center text-white">Copyright &copy; abc</p> -->
+        <p class="m-0 text-center text-white-50"><span class="text-white-80">&copy 2024</span> 2024 International Workshop on Talent and Management Computing (TMC 2024)</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
