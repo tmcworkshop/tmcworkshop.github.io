@@ -1,9 +1,8 @@
 header {
   padding: 154px 0 100px;
-  /* TODO: Replace with Jeju Island banner image, e.g. background: url(../images/jeju.jpg) no-repeat; */
-  background: linear-gradient(135deg, #0d4f8b 0%, #1a7a6d 40%, #2ea88a 70%, #6ec6a0 100%);
+  background: url(../images/jeju.jpg) no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .banner{
